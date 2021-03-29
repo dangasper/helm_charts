@@ -82,7 +82,7 @@ persistence:
   data:
     enabled: false
     emptyDir: false
-    mountPath: /opt/etherpad-lite
+    mountPath: /opt/etherpad-lite/var
     ## Template downloads data Persistent Volume Storage Class
     ## If defined, storageClassName: <storageClass>
     ## If set to "-", storageClassName: "", which disables dynamic provisioning
